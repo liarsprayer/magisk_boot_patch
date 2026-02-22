@@ -65,7 +65,7 @@ jobs:
         ROM_URL: ${{ inputs.romUrl }}
 
     - name: Upload build artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: imgs
         path: out/img/**/*.img
